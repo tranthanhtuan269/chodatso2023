@@ -20,7 +20,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/crawl', [App\Http\Controllers\HomeController::class, 'crawlData'])->name('crawlData');
-Route::get('/crawlDistrict', [App\Http\Controllers\HomeController::class, 'crawlDistrict'])->name('crawlDistrict');
-Route::get('/crawlStreet', [App\Http\Controllers\HomeController::class, 'crawlStreet'])->name('crawlStreet');
+Route::get('/districts/{id}', [App\Http\Controllers\HomeController::class, 'getDistricts'])->name('getDistricts');
+Route::get('/wards/{id}', [App\Http\Controllers\HomeController::class, 'getWards'])->name('getWards');
+Route::get('/streets/{id}', [App\Http\Controllers\HomeController::class, 'getStreets'])->name('getStreets');
+Route::get('/projects/{id}', [App\Http\Controllers\HomeController::class, 'getProjects'])->name('getProjects');
 Route::get('/crawlProject', [App\Http\Controllers\HomeController::class, 'crawlProject'])->name('crawlProject');
+
+Route::resources([
+    'products' => App\Http\Controllers\ProductController::class
+]);
