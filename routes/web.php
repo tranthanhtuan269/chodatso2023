@@ -20,3 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/crawl', [App\Http\Controllers\HomeController::class, 'crawlData'])->name('crawlData');
+Route::get('/crawlDistrict', [App\Http\Controllers\HomeController::class, 'crawlDistrict'])->name('crawlDistrict');
+Route::get('/crawlStreet', [App\Http\Controllers\HomeController::class, 'crawlStreet'])->name('crawlStreet');
+Route::get('/crawlProject', [App\Http\Controllers\HomeController::class, 'crawlProject'])->name('crawlProject');

@@ -118,7 +118,7 @@
                         <button class="mobile-menu-toggler" type="button">
                             <i class="fas fa-bars"></i>
                         </button>
-                        <a href="demo8.html" class="logo">
+                        <a href="/" class="logo">
                             <img src="/assets/images/home.png" alt="Porto Logo" width="68" height="41" />
                         </a>
                     </div>
@@ -198,8 +198,9 @@
                                     <li><a href="/cho-thue-biet-thu-lien-ke">Biệt thự, Liền kề</a></li>
                                     <li><a href="/cho-thue-mat-pho">Mặt phố</a></li>
                                     <li><a href="/cho-thue-shophouse">Shophouse, nhà phố thương mại</a></li>
-                                    <li><a href="/cho-thue-dat-nen">Đất nền dự án</a></li>
-                                    <li><a href="/cho-thue-dat-o">Bán đất ở</a></li>
+                                    <li><a href="/cho-thue-nha-tro">Nhà trọ, phòng trọ</a></li>
+                                    <li><a href="/cho-thue-cua-hang-kiot">Cửa hàng, kiot</a></li>
+                                    <li><a href="/cho-thue-van-phong">Văn phòng</a></li>
                                     <li><a href="/cho-thue-trang-trai">Trang trại</a></li>
                                     <li><a href="/cho-thue-khu-nghi-duong">Khu nghỉ dưỡng</a></li>
                                     <li><a href="/cho-thue-kho-xuong">Kho, nhà xưởng</a></li>
