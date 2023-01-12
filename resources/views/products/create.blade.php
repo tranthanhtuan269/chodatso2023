@@ -122,6 +122,14 @@
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Địa chỉ">
                 </div>
             </div>
+            <div class="row mt-3">
+                <div class="col-3">
+                    <label for="exampleFormControlInput1" class="col-form-label">Địa chỉ</label>
+                </div>
+                <div class="col-3">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Địa chỉ">
+                </div>
+            </div>
         </form>
     </div>
 @endsection
